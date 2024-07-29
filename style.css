@@ -45,7 +45,9 @@ table {
 
 body { background: #f3f3f3; }
 .logo { text-align: center; margin: 0 auto 0; padding:30px 0;background:#353539;}
-.wrapper { background: #fff; max-width: 1120px; position: relative; margin: 30px auto 80px; padding: 5px 40px 0; border-radius: 25px; }
+.wrapper { background: #fff; max-width: 560px;position: relative; margin: 0; padding: 37px 52px 30px; border-radius: 0; float: right;box-sizing: border-box; height: calc(100vh - 89px);overflow: auto;}
+.wrapper::-webkit-scrollbar{height: 10px;width: 5px;}
+.wrapper::-webkit-scrollbar-thumb{background: #F3F3F3;border-radius: 10px;}
 .carousel_v3, .v2_highlight, .v2_reviews {padding-bottom: 20px;}
 .v2_carousel {padding: 20px 10px 60px;}
 .v2_badge {padding: 20px;}
